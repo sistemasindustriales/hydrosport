@@ -1,0 +1,17 @@
+{
+  "id": "com.ejemplo.series",
+  "version": "4.0.0",
+  "name": "NETFLIX.4",
+  "description": "Addon para ver series desde M3U8",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["series"],
+  "idPrefixes": ["tt1234567", "stranger"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "series",
+      "name": "NETFLIX",
+      "extra": [{ "name": "search", "isRequired": false }]
+    }
+  ]
+}
